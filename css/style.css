@@ -2,6 +2,8 @@
 /*
 Thank you -
 http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3
+http://www.w3schools.com/css/css3_animations.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 */
 
 .html,
@@ -23,100 +25,131 @@ http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3
   left: 0;
   top: 150px;
   -webkit-animation-name: html;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 5s;
   animation-name: html;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes html {
-    0%   {background-color:red; left:0px; top:150px;}
-    25%  {background-color:orange; left:800px; top:150px;}
-    50%  {background-color:green; left:800px; top:600px;}
-    75%  {background-color:blue; left:0px; top:600px;}
-    100% {background-color:yellow; left:0px; top:150px;}
+    0%   {background-color: red; left: 0px; top: 150px;}
+    25%  {background-color: orange; left: 800px; top: 150px;}
+    50%  {background-color: green; left: 800px; top: 600px;}
+    75%  {background-color: blue; left: 0px; top: 600px;}
+    100% {background-color: yellow; left: 0px; top: 150px;}
 }
 
 @keyframes html {
-    0%   {background-color:red; left:0px; top:150px;}
-    25%  {background-color:orange; left:800px; top:150px;}
-    50%  {background-color:green; left:800px; top:600px;}
-    75%  {background-color:blue; left:0px; top:600px;}
-    100% {background-color:yellow; left:0px; top:150px;}
+    0%   {background-color: red; left: 0px; top: 150px;}
+    25%  {background-color: orange; left: 800px; top: 150px;}
+    50%  {background-color: green; left: 800px; top: 600px;}
+    75%  {background-color: blue; left: 0px; top: 600px;}
+    100% {background-color: yellow; left: 0px; top: 150px;}
 }
 
 .css {
   right: 0;
   top: 150px;
   -webkit-animation-name: css;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 5s;
   animation-name: css;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes css {
-    0%   {background-color:red; right:0; top:150px;}
-    25%  {background-color:orange; right:0; top:600px;}
-    50%  {background-color:green; right:800px; top:600px;}
-    75%  {background-color:blue; right:800px; top:150px;}
-    100% {background-color:yellow; right:0; top:150px;}
+    0%   {background-color: red; right: 0; top: 150px;}
+    25%  {background-color: orange; right: 0; top: 600px;}
+    50%  {background-color: green; right: 800px; top: 600px;}
+    75%  {background-color: blue; right: 800px; top: 150px;}
+    100% {background-color: yellow; right: 0; top: 150px;}
 }
 
 @keyframes css {
-    0%   {background-color:red; right:0; top:150px;}
-    25%  {background-color:orange; right:0; top:600px;}
-    50%  {background-color:green; right:800px; top:600px;}
-    75%  {background-color:blue; right:800px; top:150px;}
-    100% {background-color:yellow; right:0; top:150px;}
+    0%   {background-color: red; right: 0; top: 150px;}
+    25%  {background-color: orange; right: 0; top: 600px;}
+    50%  {background-color: green; right: 800px; top: 600px;}
+    75%  {background-color: blue; right: 800px; top: 150px;}
+    100% {background-color: yellow; right: 0; top: 150px;}
 }
 
 .js {
   right: 0;
   bottom: 0;
   -webkit-animation-name: js;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 5s;
   animation-name: js;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes js {
-    0%   {background-color:red; right:0; bottom:0;}
-    25%  {background-color:orange; right:800px; bottom:0px;}
-    50%  {background-color:green; right:800px; bottom:450px;}
-    75%  {background-color:blue; right:0; bottom:450px;}
-    100% {background-color:yellow; right:0; bottom:0;}
+    0%   {background-color: red; right: 0; bottom: 0;}
+    25%  {background-color: orange; right: 800px; bottom: 0px;}
+    50%  {background-color: green; right: 800px; bottom: 450px;}
+    75%  {background-color: blue; right: 0; bottom: 450px;}
+    100% {background-color: yellow; right: 0; bottom: 0;}
 }
 
 @keyframes js {
-    0%   {background-color:red; right:0; bottom:0;}
-    25%  {background-color:orange; right:800px; bottom:0px;}
-    50%  {background-color:green; right:800px; bottom:450px;}
-    75%  {background-color:blue; right:0; bottom:450px;}
-    100% {background-color:yellow; right:0; bottom:0;}
+    0%   {background-color: red; right: 0; bottom: 0;}
+    25%  {background-color: orange; right: 800px; bottom: 0px;}
+    50%  {background-color: green; right: 800px; bottom: 450px;}
+    75%  {background-color: blue; right: 0; bottom: 450px;}
+    100% {background-color: yellow; right: 0; bottom: 0;}
 }
 
 .jquery {
   left: 0;
   bottom: 0;
   -webkit-animation-name: jquery;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 5s;
   animation-name: jquery;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes jquery {
-    0%   {background-color:red; left:0; bottom:0;}
-    25%  {background-color:orange; left:0; bottom:450px;}
-    50%  {background-color:green; left:800px; bottom:450px;}
-    75%  {background-color:blue; left:800px; bottom:0;}
-    100% {background-color:yellow; left:0; bottom:0;}
+    0%   {background-color: red; left: 0; bottom: 0;}
+    25%  {background-color: orange; left: 0; bottom: 450px;}
+    50%  {background-color: green; left: 800px; bottom: 450px;}
+    75%  {background-color: blue; left: 800px; bottom: 0;}
+    100% {background-color: yellow; left: 0; bottom: 0;}
 }
 
 @keyframes jquery {
-    0%   {background-color:red; left:0; bottom:0;}
-    25%  {background-color:orange; left:0; bottom:450px;}
-    50%  {background-color:green; left:800px; bottom:450px;}
-    75%  {background-color:blue; left:800px; bottom:0;}
-    100% {background-color:yellow; left:0; bottom:0;}
+    0%   {background-color: red; left: 0; bottom: 0;}
+    25%  {background-color: orange; left: 0; bottom: 450px;}
+    50%  {background-color: green; left: 800px; bottom: 450px;}
+    75%  {background-color: blue; left: 800px; bottom: 0;}
+    100% {background-color: yellow; left: 0; bottom: 0;}
+}
+
+.intro-lead-in,
+.intro-heading {
+  position: relative;
+  -webkit-animation-name: slide-down;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  animation-name: slide-down;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    top: -400px;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    top: -400px;
+  }
+
+  to {
+    top: 0;
+  }
 }
 
 header {
