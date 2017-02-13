@@ -1,0 +1,169 @@
+
+
+/* CSS Animations */
+/*
+Thank you -
+http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3
+*/
+
+.html,
+.css,
+.js,
+.jquery {
+  width: 50px;
+  height: 50px;
+  background-color: #fed136;
+  position: absolute;
+  padding: 15px 5px 0;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  z-index: 100;
+}
+
+.html {
+  left: 0;
+  top: 0;
+  -webkit-animation-name: html;
+  -webkit-animation-duration: 10s;
+  animation-name: html;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes html {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:orange; left:800px; top:0px;}
+    50%  {background-color:green; left:800px; top:600px;}
+    75%  {background-color:blue; left:0px; top:600px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+
+@keyframes html {
+    0%   {background-color:red; left:0; top:0;}
+    25%  {background-color:orange; left:800px; top:0;}
+    50%  {background-color:green; left:800px; top:600px;}
+    75%  {background-color:blue; left:0; top:600px;}
+    100% {background-color:yellow; left:0; top:0;}
+}
+
+.css {
+  right: 0;
+  top: 0;
+  -webkit-animation-name: css;
+  -webkit-animation-duration: 10s;
+  animation-name: css;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes css {
+    0%   {background-color:red; right:0; top:0;}
+    25%  {background-color:orange; right:0; top:600px;}
+    50%  {background-color:green; right:800px; top:600px;}
+    75%  {background-color:blue; right:800px; top:0;}
+    100% {background-color:yellow; right:0; top:0;}
+}
+
+@keyframes css {
+    0%   {background-color:red; right:0; top:0;}
+    25%  {background-color:orange; right:0; top:600px;}
+    50%  {background-color:green; right:800px; top:600px;}
+    75%  {background-color:blue; right:800px; top:0;}
+    100% {background-color:yellow; right:0; top:0;}
+}
+
+.js {
+  right: 0;
+  bottom: 0;
+  -webkit-animation-name: js;
+  -webkit-animation-duration: 10s;
+  animation-name: js;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes js {
+    0%   {background-color:red; right:0; bottom:0;}
+    25%  {background-color:orange; right:800px; bottom:0px;}
+    50%  {background-color:green; right:800px; bottom:600px;}
+    75%  {background-color:blue; right:0; bottom:600px;}
+    100% {background-color:yellow; right:0; bottom:0;}
+}
+
+@keyframes js {
+    0%   {background-color:red; right:0; bottom:0;}
+    25%  {background-color:orange; right:800px; bottom:0px;}
+    50%  {background-color:green; right:800px; bottom:600px;}
+    75%  {background-color:blue; right:0; bottom:600px;}
+    100% {background-color:yellow; right:0; bottom:0;}
+}
+
+.jquery {
+  left: 0;
+  bottom: 0;
+  -webkit-animation-name: jquery;
+  -webkit-animation-duration: 10s;
+  animation-name: jquery;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes jquery {
+    0%   {background-color:red; left:0; bottom:0;}
+    25%  {background-color:orange; left:0; bottom:600px;}
+    50%  {background-color:green; left:800px; bottom:600px;}
+    75%  {background-color:blue; left:800px; bottom:0;}
+    100% {background-color:yellow; left:0; bottom:0;}
+}
+
+@keyframes jquery {
+    0%   {background-color:red; left:0; bottom:0;}
+    25%  {background-color:orange; left:0; bottom:600px;}
+    50%  {background-color:green; left:800px; bottom:600px;}
+    75%  {background-color:blue; left:800px; bottom:0;}
+    100% {background-color:yellow; left:0; bottom:0;}
+}
+
+header {
+  background-color: #333;
+  position: relative;
+}
+
+.navbar .navbar-default .navbar-custom {
+  padding-bottom: 100px;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header .intro-text {
+  padding: 150px 0 200px;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  padding-top: 100px;
+}
+
+
+header .intro-text .intro-heading {
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+section#about {
+  background-color: #fff;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+section#contact {
+  background-color: #333;
+}
